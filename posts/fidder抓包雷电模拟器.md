@@ -6,38 +6,42 @@ author: cuirx
 categories: 随记
 ---
 
-111
+### 1.打开远程连接fiddler的选项
 
-```
+<img src="https://tc.cuirx.de/i/2025/07/22/c4ofmi-2.webp" alt="image-20250722073344936" style="zoom: 33%;" />
+
+### 2.打开雷电模拟器的root权限
+
+<img src="https://tc.cuirx.de/i/2025/07/22/c5tez0-2.webp" alt="image-20250722073535703" style="zoom:50%;" />
+
+### 3.选择可写入
+
+<img src="https://tc.cuirx.de/i/2025/07/22/c5cqhi-2.webp" alt="image-20250722073458301" style="zoom:50%;" />
+
+### 4.修改模拟器网络
+
+<img src="https://tc.cuirx.de/i/2025/07/22/c6fxu8-2.webp" alt="image-20250722073641197" style="zoom:33%;" />
+
+### 5.访问ip:8866(上面fiddler设置的端口)，安装证书
+
+<img src="https://tc.cuirx.de/i/2025/07/22/c7iwu6-2.webp" alt="image-20250722073823024" style="zoom:33%;" />
+
+### 6.cmd
+
+```shell
+# 在windows窗口运行以下命令
+adb root
+
+adb remount
+ 
 adb shell
-
-#su root
-
-cd /data/misc/user/0/cacerts-added
-
-mount -o remount,rw /system
-
-cp * /etc/security/cacerts
-
-mount -o remount,ro /system
-```
-
-# 在windows窗口运行以下命令，不要进到adb shell 里面运行
-D:\platform-tools> adb root
-
-# 雷电模拟器，直接在设置打开磁盘写入功能
-
-# 重新挂载，没加权限 表示rwx全部挂上
-D:\platform-tools> adb remount
-
-# 进入adb shell
-D:platform-tools>adb shell
-
+ 
 # 查看用户证书位置
-gracelte:/ # ls /data/misc/user/0/cacerts-added/
-e5c3944b.0
+ls /data/misc/user/0/cacerts-added/
 
+# 证书名字
+# 1fc2fgb.0
+ 
 # 拷贝证书到目标文件夹
-gracelte:/ # mv /data/misc/user/0/cacerts-added/e5c3944b.0 /system/etc/security/cacerts/
-
-[fiddler+安卓雷电模拟器+解决无法抓包问题，看我就对了，一站式解决问题，告别到处搜文章_雷电模拟器抓包-CSDN博客](https://blog.csdn.net/weixin_43391813/article/details/130850778)
+mv /data/misc/user/0/cacerts-added/证书名字 /system/etc/security/cacerts/
+```
