@@ -10,14 +10,14 @@
 		"build": "vitepress build ./",
 		"preview": "vitepress preview ./"
 	},
-	"dependencies": {
-		"vitepress-theme-async": "git+https://github.com/diuhgg/vitepress-theme-async.git"
-	},
 	"directories": {
 		"doc": "docs"
 	},
 	"devDependencies": {
 		"typescript": "^5.1.6",
 		"vitepress": "^1.1.0"
+	},
+	"dependencies": {
+		"vitepress-theme-async": "github:diuhgg/vitepress-theme-async"
 	}
 }
