@@ -3,6 +3,13 @@ import links from '../links';
 
 
 export default defineConfig({
+	head:[
+		[
+			'script', 
+			{ defer:'', src:'https://um.cuirx.de/script.js" data-website-id="5aa08c41-f75d-4f02-ac4a-0fcf8ac38196' },
+		],
+	],
+	titleTemplate: 'Cuirx Blog',
 	srcDir: './',
 	themeConfig: {
 		// 导航栏
@@ -12,9 +19,12 @@ export default defineConfig({
 			{ title: '友链', url: '/links' },
 			{ title: '归档', url: '/archives' }, 
 			{ title: '关于', url: '/about' },
+			
 			{ 
 				title: '其他', 
 				children: [ 
+					{ title: '主站', url: 'https://cuirx.de' }, 
+					{ title: '访问统计', url: 'https://um.cuirx.de/share/GzkdFrvPbwgF9TIK/cuirx.me' },
 					{ title: '三角洲改枪码', url: 'https://sjz.cuirx.de' }, 
 				], 
 			} 
@@ -27,16 +37,17 @@ export default defineConfig({
 		// 用户信息
 		user: { 
 			name: 'cuirx',
-			firstName: 'Blog',
-			lastName: 'Cuirx',
+			firstName: '',
+			lastName: '',
 			domain:'cuirx.de',
 			avatar: 'https://tc.cuirx.de/i/2025/07/24/ujrcee.webp',
 			describe: '一个前端程序猿，喜欢写代码，喜欢写文章，喜欢写博客。',
 			ruleText:'暂不接受个人博客以外的友链申请。'
+			
 		},
 		// 网站图标
 		favicon: {
-			logo: '',
+			logo: '/logo.png',
 			icon16: '/favicon.svg',
 			//con32: '/favicon.svg',
 			visibilitychange: true,
@@ -81,9 +92,10 @@ export default defineConfig({
 				}, 
 			],
 			info: [ 
+				
 				{ 
-					key: '地址', 
-					val: '中国' 
+					key: '实力', 
+					val: '化神大圆满' 
 				},
 			],
 		},
@@ -133,6 +145,8 @@ export default defineConfig({
 		outline: {
 			level: [2, 6],
 		},
+
+		
 		
 	},
 });

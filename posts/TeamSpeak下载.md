@@ -6,13 +6,14 @@ date: 2025-07-25 09:52:00
 
 cover: [https://tc.cuirx.de/i/2025/07/25/frgetz.webp]
 
-author: cuirx
+
 
 categories: 随记
 
 ---
 
-### TeamSpeak3下载：[TeamSpeak 下载 | TeamSpeak](https://teamspeak.com/zh-CN/downloads/#ts3client)
+### TeamSpeak3下载：
+[TeamSpeak 下载 | TeamSpeak](https://teamspeak.com/zh-CN/downloads/#ts3client)
 
 
 
