@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       vitepress-theme-async:
-        specifier: git+https://github.com/diuhgg/vitepress-theme-async.git
-        version: https://codeload.github.com/diuhgg/vitepress-theme-async/tar.gz/fe411ce119b9ebc40229af06a9f1009b1b4510f1(vue@3.5.18(typescript@5.8.3))
+        specifier: github:diuhgg/vitepress-theme-async
+        version: https://codeload.github.com/diuhgg/vitepress-theme-async/tar.gz/c4deb8400ddf464a2eb74aba96e19cff054c7fc7(vue@3.5.18(typescript@5.8.3))
     devDependencies:
       typescript:
-        specifier: ^5.1.6
+        specifier: ^5.8.3
         version: 5.8.3
       vitepress:
-        specifier: ^1.1.0
+        specifier: ^1.6.3
         version: 1.6.3(@algolia/client-search@5.34.1)(less@4.4.0)(postcss@8.5.6)(search-insights@2.17.3)(typescript@5.8.3)
 
 packages:
@@ -901,8 +901,8 @@ packages:
       terser:
         optional: true
 
-  vitepress-theme-async@https://codeload.github.com/diuhgg/vitepress-theme-async/tar.gz/fe411ce119b9ebc40229af06a9f1009b1b4510f1:
-    resolution: {tarball: https://codeload.github.com/diuhgg/vitepress-theme-async/tar.gz/fe411ce119b9ebc40229af06a9f1009b1b4510f1}
+  vitepress-theme-async@https://codeload.github.com/diuhgg/vitepress-theme-async/tar.gz/c4deb8400ddf464a2eb74aba96e19cff054c7fc7:
+    resolution: {tarball: https://codeload.github.com/diuhgg/vitepress-theme-async/tar.gz/c4deb8400ddf464a2eb74aba96e19cff054c7fc7}
     version: 0.0.28
 
   vitepress@1.6.3:
@@ -1809,7 +1809,7 @@ snapshots:
       fsevents: 2.3.3
       less: 4.4.0
 
-  vitepress-theme-async@https://codeload.github.com/diuhgg/vitepress-theme-async/tar.gz/fe411ce119b9ebc40229af06a9f1009b1b4510f1(vue@3.5.18(typescript@5.8.3)):
+  vitepress-theme-async@https://codeload.github.com/diuhgg/vitepress-theme-async/tar.gz/c4deb8400ddf464a2eb74aba96e19cff054c7fc7(vue@3.5.18(typescript@5.8.3)):
     dependencies:
       '@vueuse/core': 9.13.0(vue@3.5.18(typescript@5.8.3))
       culori: 4.0.2
