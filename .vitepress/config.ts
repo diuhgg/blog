@@ -7,7 +7,11 @@ export default defineConfig({
 	head:[
 		[
 			'script', 
-			{ defer:'', src:'https://um.cuirx.de/script.js" data-website-id="5aa08c41-f75d-4f02-ac4a-0fcf8ac38196' },
+			{ 
+				defer:'', 
+				src:'https://um.cuirx.de/script.js' , 'data-website-id':'5aa08c41-f75d-4f02-ac4a-0fcf8ac38196'
+			},
+			
 		],
 	],
 	titleTemplate: 'Cuirx Blog',
@@ -34,6 +38,11 @@ export default defineConfig({
 		notFound: {
 			text: '从前有座山，山里有座庙，庙里有个页面，现在找不到...', 
 		},
+
+		// 关闭页面切换动画
+		pageLoading: false,
+		// 关闭主题切换动画
+		themeLoading: false,
 		
 		// 用户信息
 		user: { 
@@ -103,6 +112,7 @@ export default defineConfig({
 
 		// 页脚
 		footer: { 
+			
 			powered: {
 				enable: true
 			},
