@@ -8,7 +8,7 @@ cover: [https://tc.cuirx.de/i/2025/07/25/frgetz.webp]
 
 
 
-categories: 随记
+categories: 软件推荐
 
 ---
 
