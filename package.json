@@ -11,7 +11,7 @@
 		"preview": "vitepress preview ./"
 	},
 	"dependencies": {
-		"vitepress-theme-async": "latest"
+		"vitepress-theme-async": "git+https://github.com/diuhgg/vitepress-theme-async.git"
 	},
 	"directories": {
 		"doc": "docs"
