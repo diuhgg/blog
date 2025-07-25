@@ -12,8 +12,13 @@ categories: 随记
 
 ---
 
-### TeamSpeak3下载：
-[TeamSpeak 下载 | TeamSpeak](https://teamspeak.com/zh-CN/downloads/#ts3client)
+**为什么选择TeamSpeak3?**
+
+[开黑语音软件推荐 | Cuirx Blog](https://cuirx.me/posts/开黑语音软件推荐.html)
+
+
+
+### TeamSpeak3下载：[TeamSpeak 下载 | TeamSpeak](https://teamspeak.com/zh-CN/downloads/#ts3client)
 
 
 
