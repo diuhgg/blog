@@ -63,6 +63,16 @@ export default defineConfig({
 			visibilitychange: true,
 		},
 
+
+		// 背景
+		banner: { 
+			type: 'video', 
+			bgurl: '1.mp4', 
+			bannerTitle: 'Hello word', 
+			bannerText: '', 
+			// ...  
+		},
+
 		// 关于
 		about: {  
 			title: "如果一切都是镜花水月，那就让这万物走向终结。如果一切皆是命中注定，那就让这世界消失殆尽。",  
@@ -130,14 +140,7 @@ export default defineConfig({
 		},
 		
 
-		// 背景
-		banner: { 
-			type: 'video', 
-			bgurl: '1.mp4', 
-			bannerTitle: 'Hello word', 
-			bannerText: '', 
-			// ...  
-		},
+	
 		
 		
 		page: {
