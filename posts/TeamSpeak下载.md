@@ -18,13 +18,16 @@ categories: 软件推荐
 
 
 ### TeamSpeak3下载：
+
 [TeamSpeak 下载 | TeamSpeak](https://teamspeak.com/zh-CN/downloads/#ts3client)
 
 
 
 ### TeamSpeak3汉化包下载：
 
-https://sjz.cuirx.de/Chinese_Translation_zh-CN.ts3_translation
+[ts3汉化 | OpenList](https://wp.cuirx.de/ts3汉化)
+
+
 
 #### 使用方式：打开即用
 
