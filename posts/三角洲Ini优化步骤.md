@@ -17,6 +17,10 @@ A：解决室外曝光，提升敌对角色亮度（更容易看见敌人），�
 
 ### 1.下载ini文件，推荐v5.1-无警告
 
+[三角洲ini | OpenList](https://wp.cuirx.de/三角洲ini)
+
+
+
 ![image-20250729121337502](https://tc.cuirx.de/i/2025/07/29/k2f20f-2.webp)
 
 ### 2.打开ini文件夹
