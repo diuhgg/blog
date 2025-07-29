@@ -27,16 +27,13 @@ A：解决室外曝光，提升敌对角色亮度（更容易看见敌人），�
 
 #### 2.1如果你是WeGame
 
-![image-20250729123816333](https://tc.cuirx.de/i/2025/07/29/kh6jjk-2.webp)
+![image-20250729150042270](https://tc.cuirx.de/i/2025/07/29/otbu93-2.webp)
 
 #### 2.2如果你是客户端
 
 右上角打开下载地址，然后打开：
 
 **\DeltaForce(2001918)\DeltaForce\Saved\Config\WindowsClient**
-
-
-
 
 
 #### 2.3打开后是这样的
