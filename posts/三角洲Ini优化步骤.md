@@ -17,7 +17,7 @@ A：解决室外曝光，提升敌对角色亮度（更容易看见敌人），�
 
 ### 1.下载ini文件，推荐v5.1-无警告
 
-[三角洲ini | OpenList](https://wp.cuirx.de/三角洲ini)
+下载地址：[三角洲ini | OpenList](https://wp.cuirx.de/三角洲ini)
 
 
 
@@ -34,6 +34,9 @@ A：解决室外曝光，提升敌对角色亮度（更容易看见敌人），�
 右上角打开下载地址，然后打开：
 
 **\DeltaForce(2001918)\DeltaForce\Saved\Config\WindowsClient**
+
+
+
 
 
 #### 2.3打开后是这样的
