@@ -67,7 +67,7 @@ export default defineConfig({
 		// 背景
 		banner: { 
 			type: 'video', 
-			bgurl: '1.mp4', 
+			bgurl: '/1.mp4', 
 			bannerTitle: 'Hello word', 
 			bannerText: '', 
 			// ...  
