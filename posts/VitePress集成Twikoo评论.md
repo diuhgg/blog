@@ -11,7 +11,7 @@ categories: 随记
 
 1.安装Twikoo
 
-```shell [npm]
+```shell [pnpm]
 pnpm install twikoo
 ```
 
