@@ -6,19 +6,18 @@ cover: [https://tc.cuirx.de/i/2025/07/30/p6z9ep.webp]
 categories: 随记
 ---
 
-前置：云部署Twikoo
+
+前置：[部署Twikoo云端](https://twikoo.js.org/backend.html)
 
 1.安装Twikoo
 
-`pnpm install twikoo`
-
-```shell
+```shell [npm]
 pnpm install twikoo
 ```
 
 2.初始化Twikoo
 
-```typescript
+```typescript [.vitepress\theme\components\Twikoo.vue]
 <template>
   <div id="twikoo"></div>
 </template>
@@ -60,7 +59,7 @@ onMounted(() => {
 
 3.插入layout插槽
 
-```typescript
+```typescript [.vitepress\theme\components\Layout.vue]
 <script setup lang="ts">
 import ThemeAsync from 'vitepress-theme-async'//这里是我用的主题，默认主题为import DefaultTheme from 'vitepress/theme'
 import Twikoo from './Twikoo.vue' //评论组件
@@ -86,3 +85,12 @@ const { Layout } = ThemeAsync
 
 ```
 
+4.导入布局
+
+``` typescript [.vitepress\theme\index.ts]
+import Layout from './Layout.vue'
+export default {
+    ...ThemeAsync,
+    Layout,
+}
+```
