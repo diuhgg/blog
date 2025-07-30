@@ -9,7 +9,7 @@ export default [
 		name: "vitepress",
 		url: "https://vitepress.dev/zh/",
 		image: "https://vitepress.dev/vitepress-logo-mini.svg",
-		desc: "VitePress是一个静态站点生成器 (SSG)，专为构建快速、以内容为中心的站点而设计。"
+		desc: "VitePress是一个静态站点生成器，专为构建快速、以内容为中心的站点而设计。"
 	},
     {
 		name: "白云苍狗",

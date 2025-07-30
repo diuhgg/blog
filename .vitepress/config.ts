@@ -49,7 +49,7 @@ export default defineConfig({
 			firstName: '',
 			lastName: '',
 			email: 'cuirx@cuirx.de',
-			domain:'cuirx.de',
+			domain:'https://cuirx.de',
 			avatar: 'https://tc.cuirx.de/i/2025/07/24/ujrcee.webp',
 			describe: '一个前端程序猿，喜欢写代码，喜欢写文章，喜欢写博客。',
 			ruleText:'暂不接受个人博客以外的友链申请。'
