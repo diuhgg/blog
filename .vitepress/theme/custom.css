@@ -5,7 +5,7 @@
   --mac-green: #18c550;
   /* 标题栏尺寸 - 略微减小标题栏高度 */
   --titlebar-height: 20px;
-  --button-size: 14px;
+  --button-size: 13px;
   --button-spacing: 8px;
   /* 新增：圆点顶部间距，控制与标题栏的空隙 */
   --dot-top-margin: 12px;
@@ -133,15 +133,6 @@ div[class*="language-"] pre {
   display: none !important;
 }
 
-/* 语言图标定位 - 同步调整图标位置 */
-.language-icon {
-  position: absolute !important;
-  top: calc(var(--dot-top-margin) + 1px) !important; /* 与圆点保持对齐 */
-  left: 48px !important;
-  z-index: 50 !important;
-  width: 16px !important;
-  height: 16px !important;
-}
 
 /* 深色模式适配 */
 @media (prefers-color-scheme: dark) {
