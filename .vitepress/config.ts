@@ -1,9 +1,26 @@
 import { defineConfig } from 'vitepress-theme-async/config';
 import links from '../links';
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons';
 
 
 
 export default defineConfig({
+
+
+	//代码高亮
+	markdown: {
+    config(md) {
+      md.use(groupIconMdPlugin)
+    },
+  },
+  vite: {
+    plugins: [
+      groupIconVitePlugin()
+    ],
+  },
+
+
+
 	head:[
 		[
 			'script', 
