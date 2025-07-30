@@ -10,13 +10,14 @@ categories: 随记
 前置：[部署Twikoo云端](https://twikoo.js.org/backend.html)
 
 1.安装Twikoo
+::: code-group
 
 ```shell [pnpm]
 pnpm install twikoo
 ```
-
+:::
 2.初始化Twikoo
-
+::: code-group
 ```typescript [.vitepress\theme\components\Twikoo.vue]
 <template>
   <div id="twikoo"></div>
@@ -56,8 +57,9 @@ onMounted(() => {
 })
 </script>
 ```
-
+:::
 3.插入layout插槽
+::: code-group
 
 ```typescript [.vitepress\theme\components\Layout.vue]
 <script setup lang="ts">
@@ -84,13 +86,16 @@ const { Layout } = ThemeAsync
 </template>
 
 ```
-
+:::
 4.导入布局
 
+::: code-group
 ``` typescript [.vitepress\theme\index.ts]
+import ThemeAsync from 'vitepress-theme-async';
 import Layout from './Layout.vue'
 export default {
     ...ThemeAsync,
     Layout,
 }
 ```
+:::
