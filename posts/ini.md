@@ -3,7 +3,7 @@ title: 三角洲ini优化步骤
 date: 2025-07-29 13:07:00
 cover: [https://tc.cuirx.de/i/2025/07/29/lmvnia.webp]
 
-categories: 随记
+categories: 游戏
 ---
 原作者B站：[@幽奇](https://space.bilibili.com/35262141)
 
