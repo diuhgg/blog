@@ -1,7 +1,7 @@
 ---
 title: VitePress集成Twikoo评论
 date: 2025-07-29 15:07:00
-cover: [https://tc.cuirx.de/i/2025/07/30/p6z9ep.webp]
+cover: [https://tc.cuirx.de/i/2025/07/30/qvp35o.webp]
 
 categories: 随记
 ---
