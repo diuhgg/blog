@@ -13,17 +13,6 @@ categories: 随记
 pnpm add vitepress-plugin-group-icons
 ```
 
-::: code-group
-```shell [npm]
-npm add vitepress-plugin-group-icons
-```
-```shell [pnpm]
-pnpm add vitepress-plugin-group-icons
-```
-```shell [yarn]
-pnpm add vitepress-plugin-group-icons
-```
-:::
 
 ### 2.新建custom.css
 
