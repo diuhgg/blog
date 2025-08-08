@@ -17,7 +17,7 @@ A：解决室外曝光，提升敌对角色亮度（更容易看见敌人），�
 
 ### 1.下载ini文件，推荐v5.1-无警告
 
-下载地址：[三角洲ini | OpenList](https://wp.cuirx.de/三角洲ini)
+下载地址：[三角洲ini | OpenList](https://pan.quark.cn/s/8a13314d0a80)
 
 
 
@@ -55,7 +55,7 @@ A：解决室外曝光，提升敌对角色亮度（更容易看见敌人），�
 
 ### 3.推荐重启着热器，避免卡顿BUG
 
-![image-20250729123743504](https://tc.cuirx.de/i/2025/07/29/kgr0yu-2.webp)
+![image-20250729123743504](https://tc.cuirx.de/i/2025/08/08/sq8ktm.webp)
 
 ### 4.效果展示：没有截图
 
