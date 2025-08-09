@@ -5,13 +5,26 @@ cover: [https://tc.cuirx.de/i/2025/07/29/lmvnia.webp]
 
 categories: 游戏
 ---
-原作者B站：[@幽奇](https://space.bilibili.com/35262141)
 
 
 ::: warning
 注意：小道消息称官方即将对修改ini文件的玩家进行封号十年处理。所以是否修改，请自行判断。
 :::
 
+::: warning
+请勿使用使用火绒等软件保护ini文件。
+:::
+
+::: danger
+请勿使用阻止ACE扫盘的软件，否则会十年。
+:::
+
+::: tip
+直接明牌修改ini，目前只见过警告和1/3/7天。
+:::
+
+
+原作者B站：[@幽奇](https://space.bilibili.com/35262141)
 
 
 Q：封号吗？
