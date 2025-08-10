@@ -1,5 +1,5 @@
 ---
-title: Typora+简单图床的自定义上传命令
+title: TS3使用教程
 date: 2025-07-25 18:26:00
 cover: [https://tc.cuirx.de/i/2025/07/25/vf876u.webp]
 categories: 随记
